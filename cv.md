@@ -6,3 +6,11 @@
 * GitHub: ishkulova
 # About me
   Persistent, detail-oriented, and eager for knowledge.
+# Skills 
+HTML 
+# Code example
+# Experince
+# Education
+University: West Kazakhstan State University named after M. Utemisov
+# English
+B2 (IELTS 6.5)
