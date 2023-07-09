@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alina Ishkulova CV</title>
-    <link rel="icon" href="./images/favicon.ico" />
-    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Fauna+One&display=swap"
+      rel="stylesheet"
+    >
   </head>
   <body>
     <header>
@@ -37,78 +43,92 @@
         </nav>
       </div>
     </header>
-    <main>
-      <div class="container">
-        <section class="profile">
-          <h1>Alina Ishkulova</h1>
-          <div>Front-End developer</div>
-        </section>
-        <section class="about-me" id="about-me">
-          <h2>About me</h2>
-          <p>
-            I am a sociable and energetic young specialist with leadership
-            qualities and skills of interaction with colleagues and clients. I
-            have a high degree of motivation and adaptability.
-          </p>
-        </section>
-        <section class="contacts" id="contacts">
-          <h2>Contacts</h2>
-          <div>
-            <h3>Phone</h3>
-            <div><a href="tel:+77071716113">+77071716113</a></div>
-          </div>
-          <div>
-            <h3>Email</h3>
+    <main class="main-container">
+        <div class="left-side">
+          <img
+            src="/rsschool-cv/images/avatar.JPG"
+            alt="avatar"
+            class="avatar"
+          >
+          <section class="contacts" id="contacts">
+            <h2>Contacts</h2>
             <div>
-              <a href="mailto:alina_ishkulova@mail.ru"
-                >alina_ishkulova@mail.ru</a
-              >
+              <h3>Phone</h3>
+              <div><a href="tel:+77071716113">+77071716113</a></div>
             </div>
+            <div>
+              <h3>Email</h3>
+              <div>
+                <a href="mailto:alina_ishkulova@mail.ru"
+                  >alina_ishkulova@mail.ru</a
+                >
+              </div>
+            </div>
+            <div>
+              <h3>GitHub</h3>
+              <div><a href="https://github.com/ishkulova">ishkulova</a></div>
+            </div>
+            <div>
+              <h3>Discord</h3>
+              <div>ishkulova</div>
+            </div>
+          </section>
           </div>
-          <div>
-            <h3>GitHub</h3>
-            <div><a href="https://github.com/ishkulova">ishkulova</a></div>
-          </div>
-          <div>
-            <h3>Discord</h3>
-            <div>ishkulova</div>
-          </div>
-        </section>
-        <section class="skills" id="skills">
-          <h2>Skills</h2>
-          <ul>
-            <li>Web-development: HTML5, CSS3</li>
-            <li>Version control: GIT, Github</li>
-            <li>Graphics: Figma</li>
-          </ul>
-        </section>
-        <section class="code" id="code">
-          <h2>Code</h2>
-          <pre>
-function opposite(number) {
-    return number *-1;
-}</pre>
-        </section>
-        <section class="projects" id="projects">
-            <h2>Projects</h2>
-            <div><a href="">CV</a></div>
-        </section>
-
-        <section class="education" id="education">
-            <h2>Education</h2>
-            <div>West Kazakhstan State university after M.Utemisov</div>
-        </section>
-        <section class="english" id="english">
-            <h2>English</h2>
-            <div>B2 (IELTS 6.5)</div>
-        </section>
-      </div>
+        <div class="right-side">
+            <section class="profile">
+                <h1>Alina Ishkulova</h1>
+                <div>Front-End developer</div>
+              </section>
+              <section class="about-me" id="about-me">
+                <h2>About me</h2>
+                <p>
+                  I am a sociable and energetic young specialist with leadership
+                  qualities and skills of interaction with colleagues and clients. I
+                  have a high degree of motivation and adaptability.
+                </p>
+              </section>
+              <section class="skills" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                  <li>Web-development: HTML5, CSS3</li>
+                  <li>Version control: GIT, Github</li>
+                  <li>Graphics: Figma</li>
+                </ul>
+              </section>
+              <section class="code" id="code">
+                <h2>Code</h2>
+                <pre>
+      function opposite(number) {
+          return number *-1;
+      }</pre
+                >
+              </section>
+              <section class="projects" id="projects">
+                <h2>Projects</h2>
+                <div><a href="">CV</a></div>
+              </section>
+      
+              <section class="education" id="education">
+                <h2>Education</h2>
+                <div>West Kazakhstan State university after M.Utemisov</div>
+              </section>
+              <section class="english" id="english">
+                <h2>English</h2>
+                <div>B2 (IELTS 6.5)</div>
+              </section>
+        </div>
+        
     </main>
     <footer>
       <div class="container">
+        <div class="footer-list">
         <div><a href="https://github.com/ishkulova">ishkulova</a></div>
         <div>2023</div>
-        <div><a href="https://rs.school/js/"><img src="./images/rs_school_logo.svg" alt="rs logo"></a></div>
+        <div>
+          <a href="https://rs.school/js/"
+            ><img class="footer-logo" src="./images/rs_school_logo.svg" alt="rs logo"></a>
+        </div>
+        </div>
       </div>
     </footer>
   </body>
