@@ -1,0 +1,128 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Fauna One", serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav {
+  list-style-type: none;
+  padding-left: 0%;
+  margin-left: 0%;
+}
+.nav-list {
+  display: inline;
+}
+.avatar {
+  width: 350px;
+  border-radius: 28px;
+}
+.profile {
+  color: #00124d;
+  font-weight: bold;
+}
+
+.contacts {
+  width: 250px;
+  margin-top: 10px;
+  padding: 20px 50px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: #00124d;
+  color: #fff;
+}
+
+.contacts a {
+  color: #fff;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 10px 0px;
+  font-family: "Cinzel", serif;
+}
+
+h2 {
+  margin-top: 0;
+  font-family: "Cinzel", serif;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.left-side {
+  width: 30%;
+}
+
+.right-side {
+  width: 70%;
+}
+
+.nav-item a {
+  font-weight: bold;
+  color: #fff;
+}
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+  background-color: #00124d;
+  border-radius: 20px;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.right-side section {
+  margin-top: 50px;
+}
+
+.about-me {
+  margin-top: 60px !important;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color:rgb(199, 225, 255);
+  border-radius: 20px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.footer-logo {
+  width: 150px;
+}
